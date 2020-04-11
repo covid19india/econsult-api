@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 
 // Mock API
 app.get("/faq", (req, res) => {
-  fs.readFile("./faq.json", function (err,data) {
+  fs.readFile(__dirname +"/faq.json", function (err,data) {
     if (err) {
       res.writeHead(404);
       res.end(JSON.stringify(err));
@@ -26,7 +26,7 @@ app.get("/faq", (req, res) => {
 });
 
 app.get("/links", (req, res) => {
-  fs.readFile("./links.json", function (err,data) {
+  fs.readFile(__dirname +"/links.json", function (err,data) {
     if (err) {
       res.writeHead(404);
       res.end(JSON.stringify(err));
@@ -38,7 +38,7 @@ app.get("/links", (req, res) => {
 });
 
 app.get("/doctors", (req, res) => {
-  fs.readFile("./doctors.json", function (err,data) {
+  fs.readFile(__dirname +"/doctors.json", function (err,data) {
     if (err) {
       res.writeHead(404);
       res.end(JSON.stringify(err));
@@ -50,7 +50,7 @@ app.get("/doctors", (req, res) => {
 });
 
 app.get("/tnc", (req, res) => {
-  fs.readFile("./tnc.json", function (err,data) {
+  fs.readFile(__dirname +"/tnc.json", function (err,data) {
     if (err) {
       res.writeHead(404);
       res.end(JSON.stringify(err));
