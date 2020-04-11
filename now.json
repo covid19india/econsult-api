@@ -1,15 +1,25 @@
 {
   "version": 2,
-  "builds": [{ "src": "server.js", "use": "@now/node-server" }],
+  "builds": [{ "src": "index.js", "use": "@now/node-server" }],
   "routes": [
     {
       "src": "/faq",
-      "dest": "/server.js",
+      "dest": "/index.js",
       "methods": ["GET"]
     },
     {
       "src": "/links",
-      "dest": "/server.js",
+      "dest": "/index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/doctors",
+      "dest": "/index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/tnc",
+      "dest": "/index.js",
       "methods": ["GET"]
     }
   ]
