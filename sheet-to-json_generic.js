@@ -1,7 +1,6 @@
 const { task } = require("./lib");
 const c = require("./lib/constants");
 
-
 (async function main() {
   console.log("Running task on start...");
   await task({
