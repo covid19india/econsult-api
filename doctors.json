@@ -1,0 +1,18 @@
+{
+	"doctors": [
+		{
+			"approved1or0": "1",
+			"doyouwishtoprovideconsultationforemergencycasescheckonlyifyouareoff-duty": "1",
+			"email": "1",
+			"emailaddress": "1",
+			"medicalcouncilregistrationnopleaseinputthefullnowithstatemedicalcouncilprefix": "1",
+			"name": "1",
+			"phonenumber": "1",
+			"qualifications": "1",
+			"specializationnotmandatory": "1",
+			"state": "1",
+			"timestamp": "1",
+			"yourtelegramusername": "1"
+		}
+	]
+}
