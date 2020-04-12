@@ -1,18 +1,18 @@
 {
 	"doctors": [
 		{
-			"approved1or0": "1",
-			"doyouwishtoprovideconsultationforemergencycasescheckonlyifyouareoff-duty": "1",
+			"approved1or0": "Approved_Boolean",
+			"doyouwishtoprovideconsultationforemergencycasescheckonlyifyouareoff-duty": "Emergency_Boolean",
 			"email": "Email_String",
-			"emailaddress": "1",
-			"medicalcouncilregistrationnopleaseinputthefullnowithstatemedicalcouncilprefix": "1",
+			"emailaddress": "Email_String",
+			"medicalcouncilregistrationnopleaseinputthefullnowithstatemedicalcouncilprefix": "RegNo_String",
 			"name": "Name_String",
 			"phonenumber": "Phone_Long_Integer",
 			"qualifications": "Qualification_String",
 			"specializationnotmandatory": "Specailization_String",
 			"state": "State_String",
 			"timestamp": "Timestamp_Integer",
-			"yourtelegramusername": "1"
+			"yourtelegramusername": "TelegramID_String"
 		}
 	]
 }
