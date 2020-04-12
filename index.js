@@ -1,10 +1,12 @@
 const express = require("express");
 const app = express();
+var cors = require('cors');
 const fs = require('fs');
 
 var port = 5000;
 
 // Body parser
+app.use(cors())
 app.use(express.urlencoded({ extended: false }));
 
 // Home route
