@@ -12,5 +12,5 @@ Api  | URL
 links  | https://econsult-api-lovat.now.sh/links
 faq  | https://econsult-api-lovat.now.sh/faq
 doctors  | https://econsult-api-lovat.now.sh/doctors 
-doctorsbyId  | https://econsult-api-lovat.now.sh/doctorsbyId?emailId=?
+doctorsbyId  | https://econsult-api-lovat.now.sh/doctorsbyId?emailaddress=?
 tnc  | https://econsult-api-lovat.now.sh/tnc
