@@ -3,6 +3,8 @@ const app = express();
 var cors = require('cors');
 const fs = require('fs');
 
+
+
 var port = 5000;
 
 // Body parser
@@ -48,6 +50,31 @@ app.get("/doctors", (req, res) => {
     }
     res.writeHead(200);
     res.end(data);
+  });
+});
+
+app.get('/doctorsbyId', (req, res) => {
+  
+  fs.readFile(__dirname +"/doctors.json", function (err,data) {
+    if (err) {
+      res.writeHead(404);
+      res.end(JSON.stringify(err));
+      return;
+    }
+    
+    var doctors = JSON.parse(data.toString()).doctors;
+    
+
+    var filteredDoctor = {};
+    if( typeof req.query.emailId != 'undefined' ){
+      
+      filteredDoctor = doctors.filter(function(v, i) {
+        return ((v["emailaddress"] === req.query.emailId));
+      })
+    }
+
+    res.json(filteredDoctor)
+    
   });
 });
 
