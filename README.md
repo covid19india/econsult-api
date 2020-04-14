@@ -1,11 +1,11 @@
 # econsult-api
 The Bridge between Google Sheets and the eConsult Platform (econsult-website and econsult-prescribe)
                     
-###API Implementation
+### API Implementation
 
-Hosted in express , Fetched from local storage JSON which are updated by Google SpreadSheet API fetch and cron job using `pushthejson` for every 10 minutes
+Hosted in express, Fetched from local storage JSON(s) which are updated by Google Sheets API fetch and cron job using `pushthejson` for every 10 minutes
 
-###Tables
+### Tables
                     
 Api  | URL
 ------------- | -------------
