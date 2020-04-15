@@ -23,6 +23,11 @@
         "methods": ["GET"]
       },
       {
+        "src": "/doctorsbyId",
+        "dest": "/server.js",
+        "methods": ["GET"]
+      },
+      {
         "src": "/tnc",
         "dest": "/server.js",
         "methods": ["GET"]
