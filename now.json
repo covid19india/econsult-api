@@ -18,6 +18,11 @@
       "methods": ["GET"]
     },
     {
+      "src": "/doctorsbyId",
+      "dest": "/index.js",
+      "methods": ["GET"]
+    },
+    {
       "src": "/tnc",
       "dest": "/index.js",
       "methods": ["GET"]
