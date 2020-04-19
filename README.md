@@ -15,5 +15,5 @@ doctors  | https://econsult-api-lovat.now.sh/doctors
 doctorsbyId  | https://econsult-api-lovat.now.sh/doctorsbyId?emailId=<email-id>
 tnc  | https://econsult-api-lovat.now.sh/tnc
   
-#### Note: doctors and doctorsbyId JSON will not be updated as personal contacts of Doctors are published. Using a Secure DB and/or an easily editable sheets based interface such as [Airtable](https://airtable.com/invite/r/R3jkS9nc) is recommended.
+#### Note: doctors and doctorsbyId JSON will not be updated for this project as personal contacts of Doctors are not recommended to be published. Using a Secure DB and/or an easily editable sheets based interface such as [Airtable](https://airtable.com/invite/r/R3jkS9nc) is recommended.
   
